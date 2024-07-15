@@ -1,0 +1,428 @@
+body{
+    background-image: url(./images/banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navbar1{
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar2{
+    background-color: #f4c76e;
+}
+
+.navbar3{
+    overflow-y:visible;
+    background-color: #f4c76e;
+}
+.dropdownn{
+    background-color: #f4c76e;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+.dropdownnlist{
+    text-decoration: none;
+    color: black;
+}
+nav .b1{
+    border-radius: 20px;
+}
+#banner{
+    font-family: "Archivo Black", sans-serif;
+    padding-top: 40px;
+    padding-left: 130px;
+    margin-bottom: 266px;
+}
+
+#banner h6{
+    font-size: 170%;
+    font-weight:bolder;
+}
+#banner h1{
+    font-size: 500%;
+    font-weight: bolder;
+}
+#banner button{
+    font-size: 150%;
+    border: 0px solid black;
+    width: 187;
+    height: 46px;
+    border-radius: 50px;
+}
+#banner button:hover{
+    box-shadow: 0px 0px 9px black;
+}
+.content{
+    margin-top: 152px;
+}
+#content1 a{
+    text-decoration: none;    
+}
+#content2{
+    background-color: #f4c76e;
+    font-weight: bolder;
+}
+#content2 h1{
+    background-color: #f4c76e;
+    font-weight: bolder;
+}
+#cards1 .row{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#cards1 .card{
+    position: relative;
+    background-color: #f4c76e;
+}
+#cards1 button{
+    font-size: 100%;
+    border-radius: 50px;
+    background-color: #f4c76e;
+    position: absolute;
+    top: 10px;
+}
+#cards1 h5{
+    font-weight:bolder;
+}
+#cards1 .card{
+    position: relative;
+}
+#cards1 .imagemark{
+    transition: all 0.2s;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity:0;
+}
+#cards1 .card:hover .imagemark{
+    opacity: .55;
+}
+#cards2 .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#cards2 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#cards2 .plus{
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+#cards2 .black{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+#cards2 .p1{
+    opacity: 0;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    transition: all 0.2s;
+}
+#cards2 .card:hover .p1{
+    opacity: 1;
+}
+#cards2 .card:hover .plus{
+    opacity: .6;
+}
+#cards2 .card:hover .black{
+    opacity: .3;
+}
+#cards2 .card {
+    width: 274px;
+    height: 176px;
+}
+
+#cards2 .card1{
+    background-image: url(https://mobirise.com/extensions/commercem4/headphones/assets/images/gallery00.jpg);
+    background-size: cover;
+}
+#cards2 .card2{
+    background-image: url(https://mobirise.com/extensions/commercem4/headphones/assets/images/malte-wingen-381988-1920x1280-800x533.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card3{
+    background-image: url(https://mobirise.com/extensions/commercem4/headphones/assets/images/gallery02.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card4{
+    background-image: url(https://mobirise.com/extensions/commercem4/headphones/assets/images/malte-wingen-382148-1920x1280-800x533.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card5{
+    background-image: url(https://mobirise.com/extensions/commercem4/headphones/assets/images/gallery02-1200x800-800x533.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card6{
+    background-image: url(https://mobirise.com/extensions/commercem4/headphones/assets/images/gallery00-1200x800-800x533.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card7{
+    background-image: url(https://mobirise.com/extensions/commercem4/headphones/assets/images/malte-wingen-382148-1920x1280-800x533.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card8{
+    background-image: url(https://mobirise.com/extensions/commercem4/headphones/assets/images/malte-wingen-381988-1920x1280-800x533.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+#content3 .divmain{
+    background-color: #f4c76e;
+    display: flex;
+    align-items: center;
+}
+
+#content3 .p1{
+    font-weight: bolder;
+}
+#content3 button{
+    background-color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 120%;
+}
+
+#card3 .card{
+    position: relative;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+#card3 .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#card3 .num{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 400%;
+    font-weight: bolder;
+    color: #f4c76e;
+}
+#card3 .p1{
+    position: absolute;
+    font-weight: bolder;
+}
+#card3 .p3{
+    color: #f4c76e;
+    cursor: pointer;
+}
+
+footer .btn{
+    background-color: #f4c76e;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 130%;
+}
+footer .col-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .btn:hover{
+    color: #f4c76e;
+    background-color:black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 130%;
+}
+#card3 .card{
+    width: 280px;
+}
+#cards2 .card{
+    width: 274px;
+    height: 200px;
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    transition: all 0.6s;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#fffefdc3; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:rgb(175, 174, 174);
+    border-radius:20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(239, 238, 238); 
+    cursor:pointer;
+  }
+
+  ::-webkit-scrollbar:hover{
+    width: 12px;
+  }
+
+
+
+
+@media screen and (max-width:500px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-size: 60%;
+    }
+
+    #banner{
+        font-family: "Archivo Black", sans-serif;
+        padding-top: 60px;
+        padding-left: 10px;
+        margin-bottom: 100px;
+    }
+    #banner h6{
+        font-size: 150%;
+        font-weight:bolder;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    #banner h1{
+        padding: 0;
+        margin-top: 0;
+        font-size: 380%;
+        font-weight: bolder;
+    }
+    #banner button{
+        font-size: 150%;
+        border-radius: 50px;
+    }
+    footer .col-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #content1 .fs-4{
+        font-size: 10px;
+    }
+    #content1 div{
+        margin: 0;
+        padding: 0;
+    }
+    #content1 *{
+        font-size: 10%;
+    }
+    nav .nav-link *{
+        font-size: 140%;
+    }
+
+    nav a{
+        font-size: 400%;
+    }
+    nav img{
+        width: 25px;
+    }
+    nav .b1{
+        font-size:100%;
+    }
+    nav .b2 {
+        font-size: 800%;
+        padding: 0;
+        border: 0 solid rgba(0, 0, 0, 0);
+    }
+
+    #cards1 .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #cards1 button{
+        font-size: 1500%;
+    }
+    #cards2 .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items: center;
+        gap: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #cards2 i{
+        font-size: 130%;
+    }
+    #content3 button{
+        font-size: 450%;
+    }
+    #card3 .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #card3 .num{
+        font-size: 3000%;
+    }
+    #card3 .row *{
+        margin-top: 0px;
+        margin: 0;
+    }
+   
+    footer .btn{
+        width: 20px;
+        height: 20px;
+        font-size: 1000%;
+        padding: 0;
+    }
+    footer .btn:hover{
+        color: #f4c76e;
+        background-color:black;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 1000%;
+        padding: 0;
+    }
+    #card3 .card{
+        width: 350px;
+    }
+    #cards2 .card{
+        width: 210px;
+        height: 133px;
+    }
+
+    iframe{
+        height: 300px;
+    }
+    #cards2 .p1{
+        font-size: 2000%;
+        position: absolute;
+        top: 100px;
+        left: 10px;
+    }
+    #cards2 .plus{
+        width: 40px;
+    }
+}
